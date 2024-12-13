@@ -1,0 +1,85 @@
+css
+
+Verify
+
+Open In Editor
+Run
+Copy code
+/* Základní styl pro navbar */
+.navbar {
+    background-color: #f8f9fa; /* Světle šedé pozadí */
+    padding: 1rem; /* Vnitřní odsazení */
+}
+
+/* Styl pro značku navbar */
+.navbar-brand {
+    font-size: 1.5rem; /* Velikost písma */
+    color: #1e30f3; /* Barva textu */
+}
+
+/* Styl pro odkazy v navbaru */
+.nav-link {
+    color: #212529; /* Barva textu */
+    padding: 0.5rem 1rem; /* Vnitřní odsazení */
+    transition: color 0.3s; /* Přechod pro efekt při najetí */
+}
+
+/* Efekt při najetí myší na odkazy */
+.nav-link:hover {
+    color: #1e30f3; /* Změna barvy textu při najetí */
+}
+
+/* Styl pro aktivní odkaz */
+.nav-link.active {
+    font-weight: bold; /* Tučný text pro aktivní odkaz */
+}
+
+/* Styl pro dropdown menu */
+.dropdown-menu {
+    background-color: #ffffff; /* Bílé pozadí pro dropdown */
+    border: 1px solid #dee2e6; /* Světle šedý okraj */
+}
+
+/* Styl pro položky v dropdown menu */
+.dropdown-item {
+    color: #212529; /* Barva textu */
+    padding: 0.5rem 1rem; /* Vnitřní odsazení */
+}
+
+/* Efekt při najetí myší na položky v dropdown menu */
+.dropdown-item:hover {
+    background-color: #f8f9fa; /* Světle šedé pozadí při najetí */
+}
+
+/* Styl pro tlačítko pro vyhledávání */
+.btn-outline-success {
+    color: #198754; /* Barva textu */
+    border-color: #198754; /* Barva okraje */
+}
+
+/* Efekt při najetí myší na tlačítko pro vyhledávání */
+.btn-outline-success:hover {
+    background-color: #198754; /* Zelené pozadí při najetí */
+    color: white; /* Bílá barva textu při najetí */
+}
+
+/* Styl pro vyhledávací pole */
+.form-control {
+    border: 1px solid #ced4da; /* Světle šedý okraj */
+    border-radius: 0.375rem; /* Zaoblené rohy */
+}
+
+/* Styl pro tlačítko pro vyhledávání */
+.btn {
+    border-radius: 0.375rem; /* Zaoblené rohy */
+}
+
+/* Styl pro zmenšení navbaru na menších obrazovkách */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0.5rem; /* Menší vnitřní odsazení */
+    }
+    .navbar-brand {
+        font-size: 1.25rem; /* Menší velikost písma */
+    }
+}
